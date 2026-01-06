@@ -1,0 +1,11 @@
+[package]
+name = "servicio-tcp-final"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+tokio = { version = "1", features = ["full"] } # Runtime asíncrono y manejo de señales
+log = "0.4"                                    # Interfaz de logging estándar
+env_logger = "0.10"                            # Implementación de logging para consola
+dotenv = "0.15"                                # Para leer variables de entorno (opcional pero recomendado)
